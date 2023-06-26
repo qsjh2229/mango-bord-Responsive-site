@@ -1,0 +1,217 @@
+@charset "utf-8";
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);*/
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* 
+	100 : Thin
+	200 : Extra Light (Ultra Light)
+	300 : Light
+	400 : Regular
+	500 : Medium
+	600 : Semi Bold (Demi Bold)
+	700 : Bold
+	800 : Extra Bold (Ultra Bold)
+	900 : Black (Heavy)
+*/
+
+@font-face {
+  font-family: 'Nanum Gothic Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic Extra Bold';
+  font-style: normal;
+  font-weight: 800;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Open Sans light';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Open Sans regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
+}
+
+
+@font-face { 
+	font-family: 'Noto Sans medium'; 
+	font-style: normal; 
+	font-weight: 500; 
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),
+		 url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'), 
+		 url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');
+	}
+
+@font-face { 
+	font-family: 'Noto Sans regular'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), 
+		 url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), 
+		 url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+	}
+	
+@font-face { 
+	font-family: 'Noto Sans light'; 
+	font-style: normal; 
+	font-weight: 300; 
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'), 
+	     url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'), 
+	     url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype'); 
+	 }
+	 
+ @font-face { 
+	font-family: 'Noto Sans delight'; 
+	font-style: normal; 
+	font-weight: 300; 
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Delight.woff2) format('woff2'), 
+	     url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Delight.woff) format('woff'), 
+	     url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Delight.otf) format('opentype'); 
+ }
+	 
+	 
+@font-face { 
+	font-family: 'Noto Sans bold'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'), 
+		 url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'), 
+		 url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype'); 
+	}
+	
+/* @font-face { 
+	font-family: 'Noto Sans cjk kr'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src: url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+	} */
+
+/* sim 전용 noto sans 
+@font-face { 
+	font-family: 'Noto Sans medium'; 
+	font-style: normal; 
+	font-weight: 500; 
+	src:url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Medium-Hestia.eot),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Medium-Hestia.woff) format('woff'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/otf/NotoSansKR-Medium-Hestia.otf) format('opentype');
+	}
+
+@font-face { 
+	font-family: 'Noto Sans regular'; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Regular-Hestia.eot),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Regular-Hestia.woff) format('woff'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/otf/NotoSansKR-Regular-Hestia.otf) format('opentype');
+	}
+	
+@font-face { 
+	font-family: 'Noto Sans light'; 
+	font-style: normal; 
+	font-weight: 300; 
+	src:  url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Light-Hestia.eot),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Light-Hestia.woff) format('woff'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/otf/NotoSansKR-Light-Hestia.otf) format('opentype'); 
+	 }
+	 
+ @font-face { 
+	font-family: 'Noto Sans delight'; 
+	font-style: normal; 
+	font-weight: 300; 
+	src: url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-DemiLight-Hestia.eot),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/otf/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+ }
+	 
+	 
+@font-face { 
+	font-family: 'Noto Sans bold'; 
+	font-style: normal; 
+	font-weight: 700; 
+	src: url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Bold-Hestia.eot),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Bold-Hestia.woff) format('woff'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/otf/NotoSansKR-Bold-Hestia.otf) format('opentype');
+*/
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+    font-weight: 300;
+	src: url('//static.mangoboard.net/font/web/NanumSquareL.woff') format('woff');
+	/* src: url('../font/NanumSquareL.woff') format('woff'); */
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+    font-weight: 400;
+	src: url('//static.mangoboard.net/font/web/NanumSquareL.woff') format('woff');
+	/* src: url('../font/NanumSquare400.woff') format('woff'); */
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+    font-weight: 700;
+	src: url('//static.mangoboard.net/font/web/NanumSquareL.woff') format('woff');
+	/* src: url('../font/NanumSquare700.woff') format('woff'); */
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+    font-weight: 800;
+	src: url('//static.mangoboard.net/font/web/NanumSquareEB.woff') format('woff');
+	/* src: url('../font/NanumSquareEB.woff') format('woff'); */
+}
+

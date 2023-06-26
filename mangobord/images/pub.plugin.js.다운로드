@@ -1,0 +1,72 @@
+;(function($, window, undefined){
+	'use strict';
+
+	$.fn.YJtarget = function(options){
+		if(!this.length) return this;
+
+		if(this.length > 1){
+			this.each(function(){
+				$(this).YJtarget(options);
+			});
+			return this;
+		}
+
+		var defaults = {
+			target : false,
+			action : function(){}
+		}
+
+		var opt = $.extend({}, defaults, options);
+		var p = this[0], t;
+
+		var event = 'click.YJtarget';
+
+		$(document).on(event, function(e){
+			t = e.target;
+
+			if(t === p && opt.target){
+				opt.action(p);
+				return;
+			}else{
+				while(t !== p){
+					if(t === this){
+						break;
+					}else{
+						if(t === null){
+							break;
+						}
+						t = t.parentNode;
+					}
+				}
+				if(t === p){
+					if(opt.target){
+						opt.action(p);
+					}
+				}else{
+					if(!opt.target){
+						opt.action(p);
+					}
+				}
+				return;
+			}
+		});
+	}
+
+	$.fn.ImagesLoaded = function(){
+		var $imgs = this.find('img[src!=""]');
+		if (!$imgs.length) {return $.Deferred().resolve().promise();}
+
+		var dfds = [];
+
+		$imgs.each(function(){
+			var dfd = $.Deferred();
+			dfds.push(dfd);
+			var img = new Image();
+			img.onload = function(){dfd.resolve();}
+			img.onerror = function(){dfd.resolve();}
+			img.src = this.src;
+		});
+
+		return $.when.apply($,dfds);
+	}
+})(jQuery, window);

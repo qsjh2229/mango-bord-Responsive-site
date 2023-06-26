@@ -1,0 +1,11 @@
+var PathUtil = {
+	//devPath : "http://mango.riamore.net/",
+	devPath : "http://www.mangoboard.net/",
+	managePath : "./",
+	getServerPath : function(){
+		var host = window.location.host;
+		if(host.indexOf("localhost") > -1 || host.indexOf("8080") > -1 || host.indexOf("file://") > -1)
+			return PathUtil.devPath;
+		return PathUtil.managePath;
+	}
+};
